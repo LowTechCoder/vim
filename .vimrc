@@ -9,7 +9,7 @@ set path+=**
 "end vim only
 
 " testing this one!!!!!!!!!!!!!!!!
-"disable scroll jump for the * and the shift-leftclick
+"disable scroll jump for the *
 " https://stackoverflow.com/questions/4256697/vim-search-and-highlight-but-do-not-jump
 nnoremap <silent> * :let @/= '\<' . expand('<cword>') . '\>' <bar> set hls <cr>
 
