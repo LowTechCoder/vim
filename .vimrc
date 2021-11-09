@@ -6,6 +6,7 @@ let &t_EI .= "\e[2 q"
 set backspace=indent,eol,start
 set hlsearch
 set path+=**
+syntax on
 "end vim only
 
 " testing this one!!!!!!!!!!!!!!!!
